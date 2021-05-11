@@ -1,5 +1,4 @@
 local select = select
-
 local T, C, L = Tukui:unpack();
 local Panels = T.Panels;
 
@@ -11,7 +10,7 @@ local R, G, B = unpack(T.Colors.class[T.MyClass])
 
 local locpanel = CreateFrame("Frame", "locpanel", UIParent)
 locpanel:SetTemplate()
-locpanel:SetSize(420, 22)
+locpanel:SetSize(520, 22)
 locpanel:SetPoint("TOP", UIParent, "TOP", 0, -14)
 locpanel:SetFrameLevel(0)
 locpanel:SetFrameStrata("BACKGROUND")
@@ -25,7 +24,7 @@ locbar:SetFrameLevel(1)
 locbar:SetPoint("TOP", UIParent, "TOP", 0, -17)
 locbar:SetMinMaxValues(0, 100);
 locbar:SetValue(35);
-locbar:SetSize(410, 16)
+locbar:SetSize(510, 16)
 locbar:SetStatusBarTexture(Texture)
 locbar:SetStatusBarColor(1, 1, 0, 0.8)
 
